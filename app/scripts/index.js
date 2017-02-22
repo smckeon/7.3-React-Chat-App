@@ -5,7 +5,7 @@ var ReactDOM = require('react-dom');
 
 require('./router.js');
 
-var ChatAppContainer = require('./components/index.jsx');
+// var ChatAppContainer = require('./components/index.jsx');
 
 $(function(){
 Backbone.history.start();

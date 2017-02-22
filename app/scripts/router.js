@@ -7,7 +7,7 @@ var ChatAppContainer = require('./components/index.jsx').ChatAppContainer;
 var AppRouter = Backbone.Router.extend({
   routes: {
     '': 'index',
-    'home': 'home'
+    // 'home': 'home'
   },
 
   index: function(){
@@ -17,10 +17,10 @@ var AppRouter = Backbone.Router.extend({
     )
     console.log('Whatttttsup Index');
   },
-
-  home: function(){
-    
-  },
+  //
+  // home: function(){
+  //   alert('oh hey there!')
+  // },
 
 });
 
@@ -28,5 +28,5 @@ var appRouter = new AppRouter();
 
 
 module.exports = {
-  AppRouter
+  appRouter
 };
